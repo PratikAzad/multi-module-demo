@@ -1,0 +1,17 @@
+server:
+  port: 8010
+
+spring:
+  application:
+    name: multi-module-proj
+  cloud:
+    config:
+      uri: http://localhost:8000
+  profiles:
+    active: dev
+
+
+
+
+
+
